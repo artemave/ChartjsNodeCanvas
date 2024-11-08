@@ -1,10 +1,8 @@
-import { Assert } from 'ts-std-lib';
+import assert from 'assert';
 import { describe, it } from 'mocha';
 import { ChartConfiguration } from 'chart.js';
 
 import { ChartJSNodeCanvas, ChartCallback, CanvasType, MimeType, ChartJSNodeCanvasPlugins } from './';
-
-const assert = new Assert();
 
 describe(ChartJSNodeCanvas.name, () => {
 
